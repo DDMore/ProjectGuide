@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="1dp"
+    android:background="@color/colorPrimary"
+    android:paddingRight="1dp"
+    tools:context="dnyaneshwar.fireapp.SubmitInfo">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedbacktitle"
+                android:textSize="10pt"
+
+                android:background="#FF0000"
+
+                android:textStyle="bold"
+
+                android:textAlignment="center">
+            </TextView>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <EditText
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:hint="Your Name"
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent">
+            </EditText>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_passwor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/email"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+
+                android:layout_centerVertical="true"
+                android:hint="Your Email-Id"
+                android:inputType="textEmailAddress"
+                android:layout_width="fill_parent"
+                >
+
+            </EditText>
+</android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_passw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+               android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mobile"
+                android:hint="Your Mobile No "
+
+                android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prn"
+                android:hint="PRN NO (Ex:-2014BIT038) "
+                android:layout_weight="1" />
+            <Spinner
+                android:id="@+id/branch"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:layout_width="fill_parent"
+                android:entries="@array/Branchlist">
+            </Spinner>
+            <Spinner
+                android:id="@+id/year"
+                android:layout_height="wrap_content"
+                android:prompt="@string/dmm"
+                android:layout_width="fill_parent"
+                android:entries="@array/Yearlist">
+            </Spinner>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_ayout_passwor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/project"
+                android:hint="Project Name "
+                android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_paswor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tools"
+                android:hint="Tools Used For Project "
+                android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/field"
+                android:hint="Field Of Project "
+                android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/Submit"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@color/colorPrimary"
+                android:layout_width="fill_parent">
+            </Button>
+</LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

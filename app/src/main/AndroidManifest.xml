@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dnyaneshwar.fireapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".FireApp"
+        android:allowBackup="true"
+        android:icon="@drawable/dmm"
+        android:label="ProjectGuid"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstPage"
+            android:label="ProjectGuide"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".SubmitInfo"
+            android:label="Add Project"
+            android:parentActivityName=".FirstPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowBranchName"
+            android:parentActivityName="dnyaneshwar.fireapp.FirstPage"
+            android:screenOrientation="portrait" />
+        <activity android:name="dnyaneshwar.fireapp.Authentication.RegistrationActivity" />
+        <activity android:name="dnyaneshwar.fireapp.Authentication.LoginActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+
+        <activity android:name="dnyaneshwar.fireapp.Authentication.resetpasswd"></activity>
+    </application>
+
+</manifest>

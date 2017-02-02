@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717150024086",
+    "firebase_url": "https://fireapp-d33a0.firebaseio.com",
+    "project_id": "fireapp-d33a0",
+    "storage_bucket": "fireapp-d33a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717150024086:android:cf1d7bd93b34c2e0",
+        "android_client_info": {
+          "package_name": "dnyaneshwar.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717150024086-huf2i7fcn09jb2mbec8olcsmfv0vrht9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dnyaneshwar.fireapp",
+            "certificate_hash": "C1456EFF674008CEFB403CB19BD926833B90DE5D"
+          }
+        },
+        {
+          "client_id": "717150024086-munc30cp8c2t8kvkhb3o539hrg4qiass.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGhgH2Tm57nonRC1exYWucOY4joU-E-lM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717150024086-munc30cp8c2t8kvkhb3o539hrg4qiass.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

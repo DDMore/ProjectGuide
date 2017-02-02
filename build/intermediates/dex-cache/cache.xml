@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_e41a7df5c69c8ca8b75f303f40d6d34f8aabcf9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_30c6658166dc8925ea0f6d4afb9f2485c5c7486a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_c33a54963afc75182efb7d1edd9deb7b925c03c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_d02847129632b8e7aeb896df0210d5a0c1b21876/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_48a78bcf5341ff7b55879266adcfdd3b2c22573e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_e4d5f723ef377e202d26f086a506926d91645b5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_9bcad8a1084ee995609f1fb428e9e250a1bbae16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_d178bdba0851bafdfcb9d1ae0d01e042ddb2e29c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_d24e8745fdc966b3f46671424382e488ba1da784/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="00922cc7fdab342a82ab6ff603cb32a25b7736cc">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e5468865cc68700166d9494ec22318feecf89ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_471c8518cf60ada12cbbdade60b11753c0bd016e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_900a81ca30432fb651128b9386bf157d410edf43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_55c67afc39bf4cc6eaa998990814859fc99acc2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_ddd69e77fd571a2e9f9878359d7283ad5d2a2604/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c8e18ef94eacd377ea8f58e526895b1a9158a540">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6baa54b42ded17b6658a244d2a52543a5b19d1d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_f84670acf90ae15a99f9193b74fdf6461a32e33f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d182cbf7625fd8b308d84264b4e09a1d6d7c7df9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_38dba3793d9d34dd816277d45f26c4b932126dd8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_ed141b869cf38910b8c736a5056508d5ee514c2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_d33e0f350fbe1bf40c484000038d272a1299f5ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_3a2f0a5b601f2788959469fc67ad276b553e8d99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f4d3146ed378517d9b36667a6f900b3e651753de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_4bfd0ef842ec2c78468c7ab6a2e3f52ec63aeba9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_b9978ee45b1101644d8d48496135552126483b21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.3.1_e349dd2a5f8d0d933bf02a475df6a3439251bd5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.11_aa9ae8841ddbea34432ef32dc8c423f6922ffbec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_72fac7ae3c1fc87800afa5ca0a1a46a43975d686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_71ba71d466dc4a76305ef46b98ce83b56c44b49f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_9f9bb9e1fc4aff35f373521bec351461765aa115/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.3.1_072daf3ad4484daab5f109b78c9e0738876b20f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_75c8b6fa587d58ac294c6b41ff330a7ada737314/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_9461c63f85cda74c2e682aa15bb9cf98b6483f30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_24cd70153c342d0e1192ac71939acb7cdf530d29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_5264e876715c6938d94e13089a5c499ccdfd199c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_9bbddd2832f9861eac988a62992847bee312910d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dmm/Desktop/FireApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_cd6f90969c27eb734386f270756fc3d49735b0f2/classes.dex" />
+    </item>
+
+</items>

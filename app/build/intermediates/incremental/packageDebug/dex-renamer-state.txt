@@ -1,0 +1,7 @@
+#Thu Feb 02 16:48:18 IST 2017
+base.0=/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6baa54b42ded17b6658a244d2a52543a5b19d1d4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e5468865cc68700166d9494ec22318feecf89ca/classes.dex
+base.1=/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e5468865cc68700166d9494ec22318feecf89ca
+file.0=/home/dmm/Desktop/FireApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6baa54b42ded17b6658a244d2a52543a5b19d1d4/classes.dex
