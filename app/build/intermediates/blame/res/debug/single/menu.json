@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/home/dmm/Desktop/FireApp/app/build/intermediates/res/merged/debug/menu/menu.xml",
-        "source": "/home/dmm/Desktop/FireApp/app/src/main/res/menu/menu.xml"
+        "merged": "/home/dmm/FireApp/app/build/intermediates/res/merged/debug/menu/menu_user_info.xml",
+        "source": "/home/dmm/FireApp/app/src/main/res/menu/menu_user_info.xml"
     },
     {
-        "merged": "/home/dmm/Desktop/FireApp/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
-        "source": "/home/dmm/Desktop/FireApp/app/src/main/res/menu/menu_scrolling.xml"
+        "merged": "/home/dmm/FireApp/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/home/dmm/FireApp/app/src/main/res/menu/menu.xml"
     },
     {
-        "merged": "/home/dmm/Desktop/FireApp/app/build/intermediates/res/merged/debug/menu/searchmenu.xml",
-        "source": "/home/dmm/Desktop/FireApp/app/src/main/res/menu/searchmenu.xml"
+        "merged": "/home/dmm/FireApp/app/build/intermediates/res/merged/debug/menu/searchmenu.xml",
+        "source": "/home/dmm/FireApp/app/src/main/res/menu/searchmenu.xml"
+    },
+    {
+        "merged": "/home/dmm/FireApp/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/home/dmm/FireApp/app/src/main/res/menu/menu_scrolling.xml"
     }
 ]

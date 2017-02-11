@@ -111,6 +111,8 @@ public class ShowBranchName extends AppCompatActivity {
         b.putString("Branch",branch);
         b.putString("Year",Year);
         i.putExtras(b);
+        Log.v("Branch########:",branch);
+        Log.v("YERRRRRRRRRRRR:",Year);
         startActivity(i);
 
 

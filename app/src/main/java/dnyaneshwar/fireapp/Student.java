@@ -12,7 +12,7 @@ public class Student {
     public String Email_id;
 
     public String Branch;
-
+     public static Student t;
 
     public  Student(){
 

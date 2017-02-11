@@ -12,7 +12,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Project"
+        android:text="@string/add_project"
         android:id="@+id/addproject"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -21,31 +21,20 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show"
+        android:text="@string/show"
         android:id="@+id/showproject"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="fill_parent"
+
+
+    <Button
+        android:text="@string/logout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="fksdjhdjsdhfsdbvsdkfskdflh"
-        android:textColor="#006633"
-        android:background="#f0f0f0"
-        android:typeface="monospace"
-        android:textStyle="italic"
-        android:id="@+id/dd"
-        android:padding="5dp"/>
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="fksdjhdjsdhfsdbvsdkfskdflh"
-        android:textColor="#006633"
-        android:paddingTop="10dp"
-        android:layout_below="@+id/dd"
-        android:background="#f0f0f0"
-        android:typeface="monospace"
-        android:textStyle="italic"
-        android:padding="5dp">
-    </TextView>
+        android:layout_below="@+id/showproject"
+        android:layout_alignLeft="@+id/showproject"
+        android:layout_alignStart="@+id/showproject"
+        android:layout_marginTop="62dp"
+        android:id="@+id/logoff" />
 </RelativeLayout>

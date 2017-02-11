@@ -18,6 +18,7 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -35,6 +36,8 @@ public class ShowInfo extends AppCompatActivity {
     TextView Field;
    TextView Year;
     TextView Branch;
+    ProjectInfo projectInfo;
+    Student student;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,23 +67,25 @@ public class ShowInfo extends AppCompatActivity {
         Log.v("DNYANESHWAR:",title);
         Log.v("DNYANESHWAR:",branch);
         Log.v("DNYANESHWAR:",year);
-        String path="https://fireapp-d33a0.firebaseio.com/"+branch+"/"+year;
+        String path="https://fireapp-d33a0.firebaseio.com/"+"Projects/"+branch+"/"+year;
+        String path1="https://fireapp-d33a0.firebaseio.com/"+"Accounts";
         DatabaseReference dbRef = FirebaseDatabase.getInstance().getReferenceFromUrl(path);
-
-        Query q=dbRef.orderByChild("Project_title").equalTo(title);
+        DatabaseReference dbRef1 = FirebaseDatabase.getInstance().getReferenceFromUrl(path1);
+        Query q=dbRef.orderByChild("Project_title").equalTo(title.trim());
         final ProgressDialog pd=new ProgressDialog(this);
         pd.setMessage("Please Wait");
         pd.setCancelable(true);
         if(!pd.isShowing())
                    pd.show();
+
         q.addValueEventListener(new com.google.firebase.database.ValueEventListener() {
            @Override
            public void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot) {
                for (com.google.firebase.database.DataSnapshot data : dataSnapshot.getChildren()) {
 
-                   Student studentt = data.getValue(Student.class);
+                    projectInfo = data.getValue(ProjectInfo.class);
                   // tv.setText(studentt.Branch);
-                    Name.setText(studentt.Name);
+            /*        Name.setText(studentt.Name);
 
                     Email.setText(studentt.Email_id);
                     Mobile.setText(studentt.Mobile_no);
@@ -92,16 +97,35 @@ public class ShowInfo extends AppCompatActivity {
                    Branch.setText(studentt.Branch);
 
 
-                   break;
+                   break; */
                }
-             if (pd.isShowing())
-                            pd.dismiss();
+
            }
            @Override
            public void onCancelled(DatabaseError databaseError) {
 
            }
        });
+        q=dbRef1.orderByChild("Email_id").equalTo(projectInfo.email);
+        q.addValueEventListener(new com.google.firebase.database.ValueEventListener() {
+            @Override
+            public void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot) {
+           for(com.google.firebase.database.DataSnapshot data: dataSnapshot.getChildren())
+           {
+               student=data.getValue(Student.class);
+
+           }
+
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        if (pd.isShowing())
+            pd.dismiss();
     }
 
     @Override

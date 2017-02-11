@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="18"
+    density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14679068197099"
-    token="-4542806193155249694"
+    timestamp="11993194775359"
+    token="5452698783637167728"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1282" />
+        duration="137" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="87" />
+        duration="115" />
     <task
         name="verifier"
-        duration="1" />
+        duration="7" />
 
     <artifact
-        location="/home/dmm/Desktop/FireApp/app/build/outputs/apk/app-debug.apk"
+        location="/home/dmm/FireApp/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="14679068197099"
+        timestamp="11993194775359"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/dmm/Desktop/FireApp/app/build/outputs/apk/app-debug.apk"
+            location="/home/dmm/FireApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 

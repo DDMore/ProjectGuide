@@ -33,14 +33,23 @@
             android:name="dnyaneshwar.fireapp.FirstPage"
             android:label="ProjectGuide"
             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="dnyaneshwar.fireapp.SubmitInfo"
             android:label="Add Project"
             android:parentActivityName="dnyaneshwar.fireapp.FirstPage"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+        </activity>
         <activity
             android:name="dnyaneshwar.fireapp.ShowInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dnyaneshwar.fireapp.ShowBranch"
             android:screenOrientation="portrait" />
         <activity
             android:name="dnyaneshwar.fireapp.ShowBranchName"
@@ -48,13 +57,13 @@
             android:screenOrientation="portrait" />
         <activity android:name="dnyaneshwar.fireapp.Authentication.RegistrationActivity" />
         <activity android:name="dnyaneshwar.fireapp.Authentication.LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="dnyaneshwar.fireapp.Authentication.resetpasswd" />
+        <activity
+            android:name="dnyaneshwar.fireapp.PersonalInformation.UserInfo"
+            android:label="@string/title_activity_user_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="dnyaneshwar.fireapp.PersonalInformation.sendmail" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

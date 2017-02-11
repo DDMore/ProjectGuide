@@ -15,16 +15,23 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import dnyaneshwar.fireapp.FirstPage;
 import dnyaneshwar.fireapp.R;
+import dnyaneshwar.fireapp.Student;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-    Button register;
+    Button register,check;
     EditText email,password;
     TextView textsign,forgotpass;
     private ProgressDialog progressBar;
     private FirebaseAuth firebaseAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,19 +44,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         register.setOnClickListener(this);
         textsign.setOnClickListener(this);
         forgotpass=(TextView)findViewById(R.id.sendmail);
+        check=(Button)findViewById(R.id.checklogin);
         firebaseAuth=FirebaseAuth.getInstance();
-        if(firebaseAuth.getCurrentUser()!=null)
-        {
-            startActivity(new Intent(LoginActivity.this, FirstPage.class));
 
-        }
         forgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LoginActivity.this,resetpasswd.class));
             }
         });
+
     }
+
 
     @Override
     public void onClick(View view) {
@@ -65,7 +71,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
     private  void Loginuser(){
 
-        String emailid,passid;
+        final String emailid,passid;
         emailid=email.getText().toString().trim();
         passid=password.getText().toString().trim();
         if(TextUtils.isEmpty(emailid)){return;}
@@ -77,8 +83,31 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
+                    DatabaseReference dbRef= FirebaseDatabase.getInstance().getReferenceFromUrl("https://fireapp-d33a0.firebaseio.com/Accounts/");
+                    dbRef.orderByChild("Email_id").equalTo(emailid);
+                    dbRef.addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                        for(DataSnapshot data:dataSnapshot.getChildren())
+                        {
+                            Student student=data.getValue(Student.class);
+                            Student.t=student;
+                            break;
+                        }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+
                     Toast.makeText(LoginActivity.this,"Success",Toast.LENGTH_SHORT);
                     progressBar.dismiss();
+                    Intent i=new Intent(LoginActivity.this,FirstPage.class);
+                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(i);
+                    finish();
                 }
                 else
                 {
@@ -87,16 +116,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
 
         });
-
-
-
-
-
-
-
-
-
-
-
     }
 }

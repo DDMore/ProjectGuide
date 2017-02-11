@@ -8,7 +8,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 
 public class ProjectInfo {
-    public  String uid;
+    public  String email;
     public String Project_title;
 
     public String Year;
@@ -23,16 +23,17 @@ public class ProjectInfo {
 
     }
 
+
     public ProjectInfo(String project_title, String year, String project_area, String branch, String tools, String description,String Uid) {
 
-        Project_title = project_title;
+        this.Project_title = project_title;
         // Mobile_no = mobile_no;
-        Year = year;
-        Project_area = project_area;
+        this.Year = year;
+        this.Project_area = project_area;
         // Email_id = email_id;
-        Branch = branch;
-        Tools_used = tools;
-        Description=description;
-        uid=Uid;
+       this.Branch = branch;
+        this.Tools_used = tools;
+        this.Description=description;
+        this.email=Uid;
     }
 }

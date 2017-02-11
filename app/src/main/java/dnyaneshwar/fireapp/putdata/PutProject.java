@@ -18,6 +18,7 @@ public class PutProject {     //puts the inforamtion about the project
             String year=projectInfo.Year;
             String project_name=projectInfo.Project_title;
         DatabaseReference dbRef= FirebaseDatabase.getInstance().getReferenceFromUrl("https://fireapp-d33a0.firebaseio.com/");
-        dbRef.child("Projects/"+branch+"/"+year+"/"+project_name+"/").setValue(projectInfo);
+
+        dbRef.child("Projects").child(branch).child(year).child(project_name).setValue(projectInfo);
     }
 }

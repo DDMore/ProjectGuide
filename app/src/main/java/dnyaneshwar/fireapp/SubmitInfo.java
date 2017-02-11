@@ -10,8 +10,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -102,12 +106,30 @@ public     EditText Name;
                     return;
 
                 }
+                DatabaseReference dbRef= FirebaseDatabase.getInstance().getReferenceFromUrl("https://fireapp-d33a0.firebaseio.com/");
 
-                new MyTask().execute();
+               // dbRef.child("Accounts").child(student.Rollno).setValue(student);
+                //Log.v("Email",student.Email_id.trim());
 
 
+                // new MyTask().execute();
+                ProgressDialog Asycdialog = new ProgressDialog(SubmitInfo.this);
+                ProjectInfo projectInfo=new ProjectInfo(ProjectTitle.getText().toString()
+                        ,Year.getSelectedItem().toString(),Field.getText().toString().trim(),Branch.getSelectedItem().toString()
+                        ,Toolsused.getText().toString(),"Descptrin", firebaseAuth.getInstance().getCurrentUser().getEmail().toString());
+                ProgressDialog progressDialog=new ProgressDialog(SubmitInfo.this);
+                progressDialog.setMessage("Uploading please wait");
+                progressDialog.show();
+                Task t=dbRef.child("Projects").child(Branch.getSelectedItem().toString()).child(Year.getSelectedItem().toString()).child(projectInfo.Project_title.trim()).setValue(projectInfo);
+                if(  t.isSuccessful()) {
+                  progressDialog.dismiss();
+                  Toast.makeText(SubmitInfo.this,"Your Project Info Is SuccessFully Updated",Toast.LENGTH_SHORT).show();
+              }
+                else{
+                    progressDialog.dismiss();
+                  Toast.makeText(SubmitInfo.this,"Failed to upload the data",Toast.LENGTH_SHORT).show();
 
-
+              }
             }
         });}
     public  boolean isEmailValid(String email) {
@@ -155,7 +177,7 @@ public     EditText Name;
     public String Tools_used;
     public String Description;
 */
-    class MyTask extends AsyncTask<Void, Void, Void> {
+ /*   class MyTask extends AsyncTask<Void, Void, Void> {
 
         ProgressDialog Asycdialog = new ProgressDialog(SubmitInfo.this);
         ProjectInfo projectInfo=new ProjectInfo(ProjectTitle.getText().toString()
@@ -191,5 +213,5 @@ public     EditText Name;
     }
 
 
-}
+*/}
 

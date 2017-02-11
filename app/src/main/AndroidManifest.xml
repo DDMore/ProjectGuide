@@ -17,30 +17,39 @@
         <activity
             android:name=".FirstPage"
             android:label="ProjectGuide"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".SubmitInfo"
             android:label="Add Project"
             android:parentActivityName=".FirstPage"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+       </activity>
         <activity
             android:name=".ShowInfo"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowBranchName"
-            android:parentActivityName="dnyaneshwar.fireapp.FirstPage"
+            android:name=".ShowBranch"
             android:screenOrientation="portrait" />
-        <activity android:name="dnyaneshwar.fireapp.Authentication.RegistrationActivity" />
-        <activity android:name="dnyaneshwar.fireapp.Authentication.LoginActivity" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".ShowBranchName"
+            android:parentActivityName=".FirstPage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Authentication.RegistrationActivity" />
+        <activity android:name=".Authentication.LoginActivity">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-
-        <activity android:name="dnyaneshwar.fireapp.Authentication.resetpasswd"></activity>
+        </activity>
+        <activity android:name=".Authentication.resetpasswd" />
+        <activity
+            android:name=".PersonalInformation.UserInfo"
+            android:label="@string/title_activity_user_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PersonalInformation.sendmail"></activity>
     </application>
 
 </manifest>

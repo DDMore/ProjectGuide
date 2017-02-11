@@ -42,7 +42,7 @@ public class Registeruser {       //Function used to put the data of th student 
       //  String xpath="NAMES/"+path+"/";
         DatabaseReference dbRef= FirebaseDatabase.getInstance().getReferenceFromUrl("https://fireapp-d33a0.firebaseio.com/");
        String emial=student.Email_id;
-        dbRef.child("Accounts").child(emial).setValue(student);
+        dbRef.child("Accounts").child(student.Rollno).setValue(student);
         Log.v("Email",student.Email_id.trim());
 
 

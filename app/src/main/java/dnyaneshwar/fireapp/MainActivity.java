@@ -32,6 +32,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import dnyaneshwar.fireapp.PersonalInformation.UserInfo;
+
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
     private TextView textView;
     final List<Movie> filteredList = new ArrayList<>();    // ListView listVV;
@@ -61,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         //  ProgressDialog D = new ProgressDialog(MainActivity.this);
   //
-        String path = "https://fireapp-d33a0.firebaseio.com/Projects/" + branch + "/" + year;
+        String path = "https://fireapp-d33a0.firebaseio.com/Projects/"+branch+"/"+year;
         //final List<String> listdata = new ArrayList<>();
         dbRef = FirebaseDatabase.getInstance().getReferenceFromUrl(path);
 
@@ -83,12 +85,13 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             public void onClick(View view, int position) {
                 Movie movie = movieList.get(position);
                 Toast.makeText(getApplicationContext(), movie.getTitle() + " is selected!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(), ShowInfo.class);
+                Intent intent = new Intent(getApplicationContext(), UserInfo.class);
                 Bundle bundle = new Bundle();
 
                 bundle.putString("Title", movie.getTitle());
                 bundle.putString("Branch", branch);
                 bundle.putString("Year", year);
+            //    bundle.putStringArrayList("Email");
              //   bundle.putStringArrayList("");
                 intent.putExtras(bundle);
                 startActivity(intent);
@@ -129,10 +132,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                    ProjectInfo k = postSnapshot.getValue(ProjectInfo.class);
                     //String kk = postSnapshot.getKey();
                     //         listdata.add(k);
-                    Movie movie = new Movie(k.Project_title, k.uid);
+                    Movie movie = new Movie(k.Project_title, k.email);
                     movieList.add(movie);
                     Log.v("ANS@@@@@@@@@", k.Project_title);
-                    Log.v("ANS@@@@@@@@@", k.uid);
+                    Log.v("ANS@@@@@@@@@", k.email);
                 }
                 // ArrayAdapter<String> adpat = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, listdata);
                 //   listVV.setAdapter(adpat);
